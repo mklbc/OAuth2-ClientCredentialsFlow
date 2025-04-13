@@ -1,0 +1,71 @@
+curl --request POST --url 'https://kpi.eu.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience= https://kpi.eu.auth0.com/api/v2&grant_type=client_credentials&client_id=JIvCO5c2IBHlAe2patn6l6q5H35qxti0&client_secret=ZRF8Op0tWM36p1_hxXTU-B0K_Gq_-eAVtlrQpY24CasYiDmcXBhNS6IJMNcz1EgB'
+
+
+
+ek
+curl --request POST --url 'https://kpi.eu.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience= https://kpi.eu.auth0.com/api/v2/&grant_type=client_credentials&client_id=IvCO5c2IBHlAe2patn6l6q5H35qxti0&client_secret=ZRF8Op0tWM36p1_hxXTU-B0K_Gq_-eAVtlrQpY24CasYiDmcXBhNS6IJMNcz1EgB'
+
+
+deneme
+
+curl --request POST --url 'https://kpi.eu.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience=https://kpi.eu.auth0.com/api/v2&grant_type=client_credentials&client_id=JIvCO5c2IBHlAe2patn6l6q5H35qxti0&client_secret=ZRF8Op0tWM36p1_hxXTU-B0K_Gq_-eAVtlrQpY24CasYiDmcXBhNS6IJMNcz1EgB'
+
+
+
+curl -L 'https://kpi.eu.auth0.com/api/v2/users' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-H 'Authorization: Bearer
+--data-raw '{"email":"user@example.com","phone_number":"string","user_metadata":{},"blocked":false,"email_verified":false,"phone_verified":false,"app_metadata":{},"given_name":"string","family_name":"string","name":"string","nickname":"string","picture":"string","user_id":"string","connection":"string","password":"string","verify_email":false,"username":"string"}'
+
+
+
+
+
+curl --request POST --url 'https://dev-002vckfqm8dvka6d.us.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience=dev-002vckfqm8dvka6d.us.auth0.com&grant_type=client_credentials&client_id=yw1qtxk54FBPWM2Sjz1UOvDSRuBAioDb&client_secret=k4YGPefI932ltA9jLSLbS61bbmi2Oq90Z8PKDUgXq1CscPJ_xdm2vpbMMM-7-lNm'
+
+
+
+yw1qtxk54FBPWM2Sjz1UOvDSRuBAioDb
+https://dev-002vckfqm8dvka6d.us.auth0.com/api/v2/
+
+
+
+curl -L 'https://dev-002vckfqm8dvka6d.us.auth0.com/api/v2/client-grants' -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{"client_id":"yw1qtxk54FBPWM2Sjz1UOvDSRuBAioDb","audience":"https://dev-002vckfqm8dvka6d.us.auth0.com/api/v2/","organization_usage":"deny","allow_any_organization":false,"scope":["create:users"]}'
+
+
+
+*********************************************************************1.CODE****************************************************************************
+
+curl --request POST --url 'https://dev-002vckfqm8dvka6d.us.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'audience=https://dev-002vckfqm8dvka6d.us.auth0.com/api/v2/&grant_type=client_credentials&client_id=yPSnydnG99Xf6C04NOwQQYFLj2IRCPwE&client_secret=kk0JSR6FTx3NQghSjM0iXLc4jDD7bOb87WoEC4eDAvzpYspDreW5v7aTYquuDfMv'
+
+**********************************************************************1.TOKEN************************************************************************
+
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkJkcVk4N3Z3SkprdThXc0pxYXdoaiJ9.eyJpc3MiOiJodHRwczovL2Rldi0wMDJ2Y2tmcW04ZHZrYTZkLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJ5UFNueWRuRzk5WGY2QzA0Tk93UVFZRkxqMklSQ1B3RUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9kZXYtMDAydmNrZnFtOGR2a2E2ZC51cy5hdXRoMC5jb20vYXBpL3YyLyIsImlhdCI6MTczMzg2Mzk5NCwiZXhwIjoxNzMzOTUwMzk0LCJzY29wZSI6InJlYWQ6dXNlcnMgdXBkYXRlOnVzZXJzIGRlbGV0ZTp1c2VycyBjcmVhdGU6dXNlcnMiLCJndHkiOiJjbGllbnQtY3JlZGVudGlhbHMiLCJhenAiOiJ5UFNueWRuRzk5WGY2QzA0Tk93UVFZRkxqMklSQ1B3RSJ9.hcmSZOH9jByB9Abp53MxxcpjWqirkAvDeBBYGNpV0noWbIzqygJwtcCMvh0g_F-sUP87GI2xBgP7HSkTl5oJdoxPE_aLwFxlVJZUrtk2iupzrmZ21W57ZP0TPm9KHWEsxQvywLnt1EG7S2NemuqDfQqZwvHpXoJ0YFwqNgNz2K4s3o7AX7-WMuSDv2T3XYnaL-vm32hkcIQ6rOpnNdk_UMbKZfpevNMIJFup61i4AHwJAk9rH-dglhUqDUR1d7qrrQzYD4VYrlBPxL0AuChUF1nr-CfgqLuwH3HKzfeyj6eqneQf858G7g7SRSLt_kaSjJOUF3OhstrGyeRrRcGFqA","scope":"read:users update:users delete:users create:users","expires_in":86400,"token_type":"Bearer"}
+
+
+
+
+
+
+***********************************************************************2. CODE ***********************************************************************
+
+
+curl --request POST --url 'https://dev-002vckfqm8dvka6d.us.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'grant_type=password&username=memoklbc@icloud.com&password=Mehmet123456789.&audience=https://dev-002vckfqm8dvka6d.us.auth0.com/api/v2/&scope=offline_access&client_id=yPSnydnG99Xf6C04NOwQQYFLj2IRCPwE&client_secret=kk0JSR6FTx3NQghSjM0iXLc4jDD7bOb87WoEC4eDAvzpYspDreW5v7aTYquuDfMv'
+
+
+***************************************************************************2.TOKEN ***************************************************************
+
+
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkJkcVk4N3Z3SkprdThXc0pxYXdoaiJ9.eyJpc3MiOiJodHRwczovL2Rldi0wMDJ2Y2tmcW04ZHZrYTZkLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2NzU4OGZlMjEzMTA2Y2Y4ZTRiNWIyMGUiLCJhdWQiOiJodHRwczovL2Rldi0wMDJ2Y2tmcW04ZHZrYTZkLnVzLmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNzMzODY2MzA3LCJleHAiOjE3MzM5NTI3MDcsInNjb3BlIjoicmVhZDpjdXJyZW50X3VzZXIgdXBkYXRlOmN1cnJlbnRfdXNlcl9tZXRhZGF0YSBkZWxldGU6Y3VycmVudF91c2VyX21ldGFkYXRhIGNyZWF0ZTpjdXJyZW50X3VzZXJfbWV0YWRhdGEgY3JlYXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgZGVsZXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgdXBkYXRlOmN1cnJlbnRfdXNlcl9pZGVudGl0aWVzIG9mZmxpbmVfYWNjZXNzIiwiZ3R5IjoicGFzc3dvcmQiLCJhenAiOiJ5UFNueWRuRzk5WGY2QzA0Tk93UVFZRkxqMklSQ1B3RSJ9.YAjvVGbsuYBVdbbWHpgHYH0nJSQMYXAPNZcYnLHbO7mL3h76FoqygAvRrKVxlVFRF68Fn-UBEZEEEqdWllDDvDGG7WWApHrBVeih1YcNmjMr_il6Yq7s_ggJqr2wAv8F2eIi1gC3cXD37VoOnxl7FiX_i6kfcEiLCxX9sV-brmQjxGHuqRacoea0JDQd31ojmFXJ7mL4Y7Dj0uHtEioBvRNA8pNW2TzzPNM6NVSFw24k59hmwdVsDhceu-NIBQQXuRixFodEng4yg8sSzg6Ny-KY83X7d7MJDkSN7ov2sro7dUxEftvOY-mrTI-1doNmM1FQFpv7TD1Nfgd4f-Y-kw","refresh_token":"c-tC7dDF7CyUYaFcYaXR_RNWPh1NtHSntdH3Co4QAR1nL","scope":"read:current_user update:current_user_metadata delete:current_user_metadata create:current_user_metadata create:current_user_device_credentials delete:current_user_device_credentials update:current_user_identities offline_access","expires_in":86400,"token_type":"Bearer"}
+
+****************************************************************************3.CODE******************************************************************
+
+curl --request POST --url 'https://dev-002vckfqm8dvka6d.us.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'grant_type=refresh_token&client_id=yPSnydnG99Xf6C04NOwQQYFLj2IRCPwE&client_secret=kk0JSR6FTx3NQghSjM0iXLc4jDD7bOb87WoEC4eDAvzpYspDreW5v7aTYquuDfMv&refresh_token=c-tC7dDF7CyUYaFcYaXR_RNWPh1NtHSntdH3Co4QAR1nL'
+
+
+*****************************************************************************3.TOKEN************************************************************************
+
+
+$ curl --request POST --url 'https://dev-002vckfqm8dvka6d.us.auth0.com/oauth/token' --header 'content-type: application/x-www-form-urlencoded' --data 'grant_type=refresh_token&client_id=yPSnydnG99Xf6C04NOwQQYFLj2IRCPwE&client_secret=kk0JSR6FTx3NQghSjM0iXLc4jDD7bOb87WoEC4eDAvzpYspDreW5v7aTYquuDfMv&refresh_token=c-tC7dDF7CyUYaFcYaXR_RNWPh1NtHSntdH3Co4QAR1nL'
+{"access_token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkJkcVk4N3Z3SkprdThXc0pxYXdoaiJ9.eyJpc3MiOiJodHRwczovL2Rldi0wMDJ2Y2tmcW04ZHZrYTZkLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJhdXRoMHw2NzU4OGZlMjEzMTA2Y2Y4ZTRiNWIyMGUiLCJhdWQiOiJodHRwczovL2Rldi0wMDJ2Y2tmcW04ZHZrYTZkLnVzLmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNzMzODY3MDk0LCJleHAiOjE3MzM5NTM0OTQsInNjb3BlIjoicmVhZDpjdXJyZW50X3VzZXIgdXBkYXRlOmN1cnJlbnRfdXNlcl9tZXRhZGF0YSBkZWxldGU6Y3VycmVudF91c2VyX21ldGFkYXRhIGNyZWF0ZTpjdXJyZW50X3VzZXJfbWV0YWRhdGEgY3JlYXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgZGVsZXRlOmN1cnJlbnRfdXNlcl9kZXZpY2VfY3JlZGVudGlhbHMgdXBkYXRlOmN1cnJlbnRfdXNlcl9pZGVudGl0aWVzIG9mZmxpbmVfYWNjZXNzIiwiZ3R5IjpbInJlZnJlc2hfdG9rZW4iLCJwYXNzd29yZCJdLCJhenAiOiJ5UFNueWRuRzk5WGY2QzA0Tk93UVFZRkxqMklSQ1B3RSJ9.j6poVzBAcTBcXWZOywq2DYZkk3GepIFQTdKdqoUfhEX_YEWkrM7yw6MMs64zrVprOuMv_h61iYwHoiLOufg8UuQ5KBVFd4y5-co8Sp_nzDi_aSBraRAErWqgxXrE9CBQbgdJ7Rlu5HdVndJS5c4k5d8DoIVEEoWwxSyVQphZEa_29tuVNlWRrlKi4RtLE_bXQ-RQgl3pp7wY3euDtwFXuMoKIPZjtm6JI6mctSFyBcheXze5Ybb83Jn95zTVx5GPR2z0V72c8Sr-B6ZXNpTdz6UrHgsgJYxScdtGJqRhTG_eDYrfTxd5Y103z5xK_yQWecmGG5GvFKbbqA8VkhVPfw","scope":"read:current_user update:current_user_metadata delete:current_user_metadata create:current_user_metadata create:current_user_device_credentials delete:current_user_device_credentials update:current_user_identities offline_access","expires_in":86400,"token_type":"Bearer"}
